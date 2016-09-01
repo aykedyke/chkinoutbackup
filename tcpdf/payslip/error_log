@@ -1,0 +1,231 @@
+[30-Jul-2014 02:39:27 America/Chicago] PHP Warning:  require_once(../../../mod_lib/connection.php): failed to open stream: No such file or directory in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 30
+[30-Jul-2014 02:39:27 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../../../mod_lib/connection.php' (include_path='.:/opt/php54/lib/php') in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 30
+[30-Jul-2014 02:39:39 America/Chicago] PHP Warning:  require_once(../../../mod_lib/connection.php): failed to open stream: No such file or directory in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 30
+[30-Jul-2014 02:39:39 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../../../mod_lib/connection.php' (include_path='.:/opt/php54/lib/php') in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 30
+[30-Jul-2014 03:35:04 America/Chicago] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php on line 18287
+[30-Jul-2014 03:35:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php on line 19565
+[30-Jul-2014 03:35:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php on line 19597
+[30-Jul-2014 03:35:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php:18287) in /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php on line 7672
+[30-Jul-2014 03:35:11 America/Chicago] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php on line 18287
+[30-Jul-2014 03:35:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php on line 19565
+[30-Jul-2014 03:35:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php on line 19597
+[30-Jul-2014 03:35:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php:18287) in /home/tapdash/public_html/projects/attendance/tcpdf/tcpdf.php on line 7672
+[31-Jul-2014 02:33:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 96
+[31-Jul-2014 02:35:29 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 113
+[31-Jul-2014 02:36:47 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 109
+[16-Mar-2015 22:44:15 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 187
+[15-Jun-2015 01:13:25 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:25 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:25 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:25 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:25 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:26 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:26 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:26 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:26 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:26 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:13:26 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:32 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:32 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[15-Jun-2015 01:15:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 130
+[30-Jun-2015 04:48:41 America/Chicago] PHP Parse error:  syntax error, unexpected '>=' (T_IS_GREATER_OR_EQUAL) in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 215
+[14-Sep-2015 22:38:09 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 101
+[21-Sep-2015 22:49:14 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 279
+[21-Sep-2015 22:49:14 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 281
+[21-Sep-2015 22:49:14 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 285
+[05-Oct-2015 03:38:34 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 277
+[05-Oct-2015 03:38:34 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 279
+[05-Oct-2015 03:38:34 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 283
+[28-Dec-2015 21:50:23 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 21:50:23 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 21:50:23 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 284
+[28-Dec-2015 21:51:33 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 21:51:33 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 21:51:33 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 284
+[28-Dec-2015 21:52:18 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 21:52:18 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 21:52:18 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 284
+[28-Dec-2015 21:52:28 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 21:52:28 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 21:52:28 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 284
+[28-Dec-2015 21:54:43 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 21:54:43 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 21:54:43 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[28-Dec-2015 21:55:01 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 21:55:01 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 21:55:01 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[28-Dec-2015 21:55:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 21:55:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 21:55:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[28-Dec-2015 22:11:40 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 22:11:40 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 22:11:40 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[28-Dec-2015 22:11:43 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 22:11:43 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 22:11:43 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[28-Dec-2015 22:53:07 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 22:53:07 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 22:53:07 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[28-Dec-2015 22:53:27 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 22:53:27 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 22:53:27 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[28-Dec-2015 23:14:22 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[28-Dec-2015 23:14:22 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[28-Dec-2015 23:14:22 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:00:15 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:00:15 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:00:15 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:00:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:00:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:00:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:00:42 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:00:42 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:00:42 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:00:46 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:00:46 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:00:46 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:03:47 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:03:47 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:03:47 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:20:34 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:20:34 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:20:34 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:20:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:20:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:20:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:22:29 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:22:29 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:22:29 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:22:35 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:22:35 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:22:35 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:23:05 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:23:05 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:23:05 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:35:51 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:35:51 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:35:51 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:57:32 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:57:32 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:57:32 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:59:03 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:59:03 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:59:03 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:59:41 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:59:41 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:59:41 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 00:59:56 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 00:59:56 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 00:59:56 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 01:01:24 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 01:01:24 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 01:01:24 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 01:03:26 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 01:03:26 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 01:03:26 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 01:06:35 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 01:06:35 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 01:06:35 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 03:28:10 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 03:28:10 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 03:28:10 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 03:29:07 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 03:29:07 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 03:29:07 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 04:08:24 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 04:08:24 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 04:08:24 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 04:09:47 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 04:09:47 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 04:09:47 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[29-Dec-2015 08:23:46 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[29-Dec-2015 08:23:46 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[29-Dec-2015 08:23:46 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[03-Jan-2016 21:41:56 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[03-Jan-2016 21:41:56 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[03-Jan-2016 21:41:56 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[06-Jan-2016 20:10:53 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[06-Jan-2016 20:10:53 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[06-Jan-2016 20:10:53 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[12-Jan-2016 04:05:31 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[12-Jan-2016 04:05:31 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[12-Jan-2016 04:05:31 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[12-Jan-2016 21:34:45 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[12-Jan-2016 21:34:45 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[12-Jan-2016 21:34:45 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[13-Jan-2016 04:39:59 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[13-Jan-2016 04:39:59 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[13-Jan-2016 04:39:59 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[18-Jan-2016 02:01:25 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 7
+[18-Jan-2016 02:01:25 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 7
+[18-Jan-2016 02:01:25 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip.php on line 8
+[10-Feb-2016 02:07:54 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[10-Feb-2016 02:07:54 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[10-Feb-2016 02:07:54 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[10-Feb-2016 02:07:54 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[10-Feb-2016 02:07:54 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[10-Feb-2016 02:07:54 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[10-Feb-2016 02:16:06 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[10-Feb-2016 02:16:06 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[10-Feb-2016 02:16:06 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[10-Feb-2016 02:16:06 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[10-Feb-2016 02:16:06 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[10-Feb-2016 02:16:06 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[01-Apr-2016 00:30:51 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[01-Apr-2016 00:30:51 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[01-Apr-2016 00:30:51 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[01-Apr-2016 00:35:33 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[01-Apr-2016 00:35:33 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[01-Apr-2016 00:35:33 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[01-Apr-2016 00:36:04 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[01-Apr-2016 00:36:04 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[01-Apr-2016 00:36:04 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[01-Apr-2016 00:36:04 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[01-Apr-2016 00:36:04 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[01-Apr-2016 00:36:04 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[31-May-2016 01:48:13 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[31-May-2016 01:48:13 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[31-May-2016 01:48:13 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[31-May-2016 22:06:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[31-May-2016 22:06:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[31-May-2016 22:06:39 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[07-Jun-2016 19:43:14 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[07-Jun-2016 19:43:14 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[07-Jun-2016 19:43:14 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[30-Jun-2016 05:22:44 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 278
+[30-Jun-2016 05:22:44 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 280
+[30-Jun-2016 05:22:44 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[21-Jul-2016 02:21:54 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 282
+[21-Jul-2016 02:21:54 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 285
+[21-Jul-2016 02:21:54 America/Chicago] PHP Warning:  Division by zero in /home/tapdash/public_html/projects/attendance/class_payroll.php on line 288
+[21-Jul-2016 22:14:34 America/Chicago] PHP Parse error:  syntax error, unexpected ''<br/>' (T_CONSTANT_ENCAPSED_STRING) in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 155
+[21-Jul-2016 22:16:09 America/Chicago] PHP Parse error:  syntax error, unexpected ''<br/>' (T_CONSTANT_ENCAPSED_STRING) in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 155
+[21-Jul-2016 22:16:37 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 163
+[21-Jul-2016 22:18:17 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdf_payslip_all.php on line 163
+[24-Jul-2016 21:28:41 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdfattendance.php on line 139
+[24-Jul-2016 21:32:55 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdfattendance.php on line 138
+[24-Jul-2016 21:32:57 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdfattendance.php on line 138
+[24-Jul-2016 21:33:50 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdfattendance.php on line 136
+[24-Jul-2016 21:33:52 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdfattendance.php on line 136
+[24-Jul-2016 21:33:54 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdfattendance.php on line 136
+[24-Jul-2016 21:34:57 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdfattendance.php on line 136
+[24-Jul-2016 22:12:27 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/tcpdf/payslip/pdfattendance.php on line 165

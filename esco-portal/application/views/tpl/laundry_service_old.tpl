@@ -1,0 +1,554 @@
+{include file='./global_tpl/header_front.tpl'}
+<div class="row"><div  id="spacing"></div></div>
+   <div class="container">
+   <form method="POST" action="{$base_url}Services" id="questionForm">
+   <div class="qf-1">
+	  <div class="row">
+	  <div class="col-md-6 col-md-offset-3">
+	    <div class="col-md-12">
+	    	<input type = "hidden" name = "service_type" value = "laundry" />
+			<h4>What type of wash/cleaning? (Please Tick all applicable)</h4>
+				<div class="col-md-12">
+					<div class="choose_bid">
+						 <label class="col-xs-12"><input type="checkbox" name="qf_1[]" onClick="questioner_1()" value="Regular Wash & Fold" class="qf_1-1" ><span>&nbsp;</span>Regular Wash & Fold</label>
+						 <label class="col-xs-12"><input type="checkbox" name="qf_1[]" onClick="questioner_1()" value="Regular Wash & Press" class="qf_1-2"><span>&nbsp;</span>Regular Wash & Press</label>
+						 <label class="col-xs-12"><input type="checkbox" name="qf_1[]" onClick="questioner_1()" value="Special Wash (For Delicates, Comforters, Bulky items, heavy soil)"  class="qf_1-3"><span>&nbsp;</span>Special Wash (For Delicates, Comforters, Bulky items, heavy soil) </label>
+						 <label class="col-xs-12"><input type="checkbox" name="qf_1[]"  onClick="questioner_1()" value="Dry Cleaning" class="qf_1-4"><span>&nbsp;</span>Dry Cleaning</label>
+						 <label class="col-xs-12"><input type="checkbox" name="qf_1[]"  onClick="questioner_1()" value="Special Care (For signature items, Individually packed)" class="qf_1-5"><span>&nbsp;</span>Special Care (For signature items, Individually packed)</label>
+					</div>
+				</div>
+	 	 </div>
+	 	 <div style="clear:both"></div>
+	 	 	 	 	<div class="buttongroup">
+
+			<div class="btn-group" style="float:right;">
+				<a href="#" onClick="questioner('qf-1','qf-2')" class="btn btn-primary">CONTINUE</a>
+			</div>
+			<div class="btn-group" style="float:left;">
+				<a href="{$base_url}bidding" class="btn btn-primary">BACK</a>
+			</div>
+	 	 </div>
+	 	 </div>
+<br/><br/>
+
+
+	 	 	  </div>
+	 	 	  </div> <br/>
+		<div class="questioner qf-2">
+	 	 <div class="col-md-8 col-md-offset-3">
+	 	  <div class="col-md-12 qf-1_a ">
+	 	 	<h4>For Regular Wash & Fold: (indicate number of items)</h4>
+	 	 	<div class="col-md-10">
+	 	 	<table class="TableService" id="form1">
+	 	 		<thead>
+					<tr>
+						<th></th>
+						<th>White</th>
+						<th>Colored</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th>T-Shirt</th>
+					<input type="hidden" value="T-Shirt" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Polo Shirt</th>
+					<input type="hidden" value="Polo Shirt" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Polo</th>
+					<input type="hidden" value="Polo" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Longsleves</th>
+					<input type="hidden" value="Longsleves" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Pants</th>
+					<input type="hidden" value="Pants" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Shorts</th>
+					<input type="hidden" value="Shorts" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Blouse</th>
+					<input type="hidden" value="Blouse" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Dress</th>
+					<input type="hidden" value="Dress" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Socks</th>
+					<input type="hidden" value="Socks" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Towels</th>
+					<input type="hidden" value="Towels" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0" ></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Blankets</th>
+					<input type="hidden" value="Blankets" name="qf_2[]">
+					<td><input type="text" name="qf_2[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_2[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				</tbody>
+	 	 	</table>
+	 	 	</div>
+	 	 	</div>
+	 	 <div class="col-md-12 qf-1_b">
+
+	 	 <h4>For Regular Wash & Press: (indicate number of items)</h4>
+	 	 	<div class="col-md-10">
+	 	 	<table class="TableService">
+	 	 		<thead>
+					<tr>
+						<th></th>
+						<th>White</th>
+						<th>Colored</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th>T-Shirt</th>
+					<input type="hidden" value="T-Shirts" name="qf_3[]">
+					<td><input type="text" name="qf_3[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Polo Shirt</th>
+					<input type="hidden" value="Polo Shirt" name="qf_3[]">
+					<td><input type="text" name="qf_3[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Polo</th>
+					<input type="hidden" value="Polo" name="qf_3[]">
+					<td><input type="text" name="qf_3[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Longsleves</th>
+					<input type="hidden" value="Longsleves" name="qf_3[]">
+					<td><input type="text" name="qf_3[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Pants</th>
+					<input type="hidden" value="Pants" name="qf_3[]">
+					<td><input type="text" name="qf_3[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Shorts</th>
+					<input type="hidden" value="Shorts" name="qf_3[]">
+					<td><input type="text" name="qf_3[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Blouse</th>
+					<input type="hidden" value="Blouse" name="qf_3[]">
+					<td><input type="text" name="qf_3[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Dress</th>
+					<input type="hidden" value="Dress" name="qf_3[]">
+					<td><input type="text" name="qf_3[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control" value="0" readonly></td>
+				</tr>
+				<tr>
+					<th>Socks</th>
+					<input type="hidden" value="Socks" name="qf_3[]">
+					<td><input type="text" name="qf_3[]" class="form-control fCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control sCount" value="0"></td>
+					<td><input type="text" name="qf_3[]" class="form-control theTotal" value="0" readonly></td>
+				</tr>
+
+				</tbody>
+	 	 	</table>
+	 	 	</div>
+	 	 	<div class="col-lg-10">
+	 	 	<div class="pull-right">
+	 	 	<div class="qf">
+				<label class="col-lg-4">Extra Hanger?</label><label class="col-lg-4"><input type="radio" name="qf_3-a" value="yes"><span>&nbsp;</span>Yes</label>
+				<label class="col-lg-4"><input type="radio" value="no" name="qf_3-a"><span>&nbsp;</span>No</label>
+				</div>
+				</div>
+	 	 	</div>
+	 	 	</div>
+
+
+	 	 <div class="col-md-12 qf-1_c">
+	 	 	<h4>For Special Wash: (indicate number of items)</h4>
+	 	 	<div class="col-md-10">
+	 	 	<table class="TableService">
+	 	 		<thead>
+					<tr>
+						<th></th>
+						<th>White</th>
+						<th>Colored</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th>Delicates</th>
+					<input type="hidden" value="Delicates" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Curtains</th>
+					<input type="hidden" value="Curtains" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Seat covers</th>
+					<input type="hidden" value="Seat Covers" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Table cloths</th>
+					<input type="hidden" value="Table cloths" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Draperies</th>
+					<input type="hidden" value="Draperies" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Heavy soil</th>
+					<input type="hidden" value="Heavy soil" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0" ></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0" ></td>
+				</tr>
+				<tr>
+					<th>Items</th>
+					<input type="hidden" value="Items" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Comforters</th>
+					<input type="hidden" value="Comforters" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Carpet</th>
+					<input type="hidden" value="Carpet" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Pillow</th>
+					<input type="hidden" value="Pillow" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Stuff Toys</th>
+					<input type="hidden" value="Stuff Toys" name="qf_4[]">
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_4[]" class="form-control" value="0"></td>
+				</tr>
+				</tbody>
+	 	 	</table>
+	 	 	</div>
+	 	 	</div>
+
+
+	 	 <div class="col-md-12 qf-1_d br">
+	 	 <h4>For Dry Cleaning: (indicate number of items)</h4>
+	 	 	<div class="col-md-10">
+	 	 	<table class="TableService">
+	 	 		<thead>
+					<tr>
+						<th></th>
+						<th>White</th>
+						<th>Colored</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th>Barong Jusi</th>
+					<input type="hidden" value="Barong Jusi" name="qf_5[]">
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Barong Pina</th>
+					<input type="hidden" value="Barong Pina" name="qf_5[]">
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Barong Ramie</th>
+					<input type="hidden" value="Barong Ramie" name="qf_5[]">
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"  ></td>
+				</tr>
+				<tr>
+					<th>Suit (Top)</th>
+					<input type="hidden" value="Suit (Top)" name="qf_5[]">
+					<td><input type="text" name="qf_5[]" class="form-control"  value="0" ></td>
+					<td><input type="text" name="qf_5[]" class="form-control"  value="0" ></td>
+					<td><input type="text" name="qf_5[]" class="form-control"  value="0"></td>
+				</tr>
+				<tr>
+					<th>Suit (Trousers)</th>
+					<input type="hidden" value="Suit (Trousers)" name="qf_5[]">
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control"  value="0" ></td>
+				</tr>
+				<tr>
+					<th>Wedding Gown</th>
+					<input type="hidden" value="Suit (Wedding Gown)" name="qf_5[]">
+					<td><input type="text" name="qf_5[]" class="form-control" value="0" ></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0" ></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0" ></td>
+				</tr>
+				<tr>
+					<th>Gown</th>
+					<input type="hidden" value="Suit (Gown)" name="qf_5[]">
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_5[]" class="form-control" value="0"></td>
+				</tr>
+
+
+				</tbody>
+	 	 	</table>
+	 	 	</div>
+	 	 	</div>
+	 	 	<div class="col-md-12 qf-1_e" >
+ <h4>For Special Care: (indicate number of items)</h4>
+	 	 	<div class="col-md-10">
+	 	 	<table class="TableService">
+	 	 		<thead>
+					<tr>
+						<th></th>
+						<th>White</th>
+						<th>Colored</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th>T-Shirt</th>
+					<input type="hidden" value="T-Shirts" name="qf_6[]">
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Polo Shirt</th>
+					<input type="hidden" value="Polo Shirt" name="qf_6[]">
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Polo Longsleeves</th>
+					<input type="hidden" value="Polo Longsleeves" name="qf_6[]">
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Pants</th>
+					<input type="hidden" value="Pants" name="qf_6[]">
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Shorts</th>
+					<input type="hidden" value="Shorts" name="qf_6[]">
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Blouse</th>
+					<input type="hidden" value="Blouse" name="qf_6[]">
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+				</tr>
+				<tr>
+					<th>Dress</th>
+					<input type="hidden" value="Dress" name="qf_6[]">
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+					<td><input type="text" name="qf_6[]" class="form-control" value="0"></td>
+				</tr>
+
+
+				</tbody>
+	 	 	</table>
+	 	 	</div>
+	 	 	</div>
+
+
+	 	 	<div class="col-md-12">
+		 	 	<h5>Rush Items? (Double the price for Rush Items)</h5>
+		 	 	<div class="col-md-10">
+		 	 		<div class="qf">
+					<label class="col-lg-4"><input type="radio" value="yes" name="qf_7[]" ><span>&nbsp;</span>Yes</label>
+					<label class="col-lg-4"><input type="radio" value="no" name="qf_7[]" ><span>&nbsp;</span>No</label>
+					</div>
+		 	 	</div>
+	 	 	</div>
+	 	 	 <div class="col-md-12">
+		 	 	<h5>Have it picked up & delivered to you? (via DJ Express)</h5>
+		 	 	<div class="col-md-10">
+		 	 		<div class="qf">
+					<label class="col-lg-4"><input type="radio" value="yes" name="qf_8[]"><span>&nbsp;</span>Yes</label>
+					<label class="col-lg-4"><input type="radio" value="no" name="qf_8[]"><span>&nbsp;</span>No</label>
+					</div>
+		 	 	</div>
+		 	 	</div>
+		 	 	<div class="col-md-12">
+		 	 	<h5>Have it picked up & delivered to you?</h5>
+		 	 	<div class="col-md-10">
+					<label class="col-lg-3">Address</label>
+					<div class="col-lg-9">
+						<textarea class="form-control form_gray"  name="qf_9[]"></textarea>
+					</div>
+		 	 	</div>
+		 	 	</div>
+		 	 	<div class="col-md-12">
+		 	 	<h5>Where is the exact location to have it pick up?</h5>
+		 	 	<div class="col-md-10">
+					<label class="col-lg-3">Address</label>
+					<div class="col-lg-9">
+						<textarea class="form-control form_gray"  name="qf_10[]"></textarea>
+					</div>
+		 	 	</div>
+		 	 	</div>
+
+	 	 <div class="col-md-12">
+		 	 	<h5>Specific notes and instructions for the transaction.</h5>
+		 	 	<div class="col-md-10">
+					<label class="col-lg-3">Address</label>
+					<div class="col-lg-9">
+						<textarea name="qf_11[]" class="form-control form_gray"></textarea>
+					</div>
+		 	 	</div>
+		 	 	</div>
+		 	 	 	 <div class="col-md-12">
+		 	 	<h5>Attach picture of items. (optional)</h5>
+		 	 	<div class="col-md-10">
+					<input type="file" name="">
+		 	 	</div>
+		 	 	</div>
+		 	 	{if $iflogin == 'no'}
+		 	 	<div class="col-md-10">
+						<h4>CONTACT INFORMATION</h4>
+						<div class="form-group">
+							<div class="col-md-6 nopadding">
+								<input type="text" class="form-control form_gray" placeholder="First Name" name="strFirstName" >
+							</div>
+						<div class="col-md-6 nopadding">
+							<input type="text" class="form-control form_gray" placeholder="Last Name" name="strLastName">
+						</div>
+						<div class="col-md-12 nopadding">
+								<input type="text" class="form-control form_gray" placeholder="E-mail Address" name="strEmail" >
+						</div>
+						<div class="col-md-12 nopadding">
+								<input type="text" class="form-control form_gray" placeholder="Address" name="strAddress" >
+						</div>
+						<div class="col-md-12 nopadding">
+							<div class="input-group">
+								<div class="input-group-addon">+63</div><input type="text" class="form-control form_gray" placeholder="Contact Number" name="strContactNumber" >
+							</div>
+						</div>
+
+						</div>
+				</div>
+				{/if}
+
+		 	 	<div style="clear:both"></div>
+	 	 	<div class="col-md-10">
+				<div class="btn-group" style="float:right;">
+							<input type="hidden" name="service_type" value="{$service_type}">
+
+					<button name="save" class="btn btn-primary">CONTINUE</button>
+				</div>
+				<div class="btn-group" style="float:left;">
+					<a href="#" onClick="qf_back('qf-2','qf-1')" class="btn btn-primary">BACK</a>
+				</div>
+			</div>
+	  </div>
+	  	 	 </div>
+			</form>
+	  </div>
+  </div>
+
+{include file='./global_tpl/footer_front.tpl'}

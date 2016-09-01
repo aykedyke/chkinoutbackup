@@ -1,0 +1,63 @@
+#page-wrapper{
+  padding-top:3%;
+}
+.userNav{
+  width:100%;
+  margin:0 auto;
+  padding:1%;
+  border-radius:10px;
+  border:2px solid #ededed;
+  margin:5px;
+}
+.btn-djwhite,.btn-djwhite:visited{
+  border-radius:5px;
+  border:2px solid #ededed;
+  color:#000;
+  padding-left:40px;
+  padding-right:40px;
+
+}
+.btn-djRed{
+  border-radius:5px;
+background:#ef4023;
+color:#fff;
+padding-left:40px;
+padding-right:40px;
+
+}.btn-djYellow{
+  border-radius:5px;
+background:#e8bc36;
+color:#fff;
+padding-left:40px;
+padding-right:40px;
+
+}
+.btn-djRed:visited{
+  border-radius:5px;
+background:#ef4023;
+color:#fff;
+padding-left:40px;
+padding-right:40px;
+
+}
+.nav-but{
+  position:relative;
+  top:15px;
+}
+.hide{
+  display:none;
+}
+@media (max-width: 768px) {
+.navbar-default{
+  height:5%;
+}
+.userNav2{
+  display:none;
+}
+}
+.sidebar-nav{
+  background:#000;
+}
+.error{
+  color:red;
+}

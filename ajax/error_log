@@ -1,0 +1,18 @@
+[07-Jul-2016 02:44:52 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:44:53 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:44:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:44:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:44:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:44:55 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:44:55 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:44:55 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:44:59 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:45:47 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[07-Jul-2016 02:45:48 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tapdash/public_html/projects/attendance/ajax/search_empid_devregistration.php on line 40
+[21-Jul-2016 19:44:49 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/tapdash/public_html/projects/attendance/ajax/search_employee_payroll.php on line 63
+[21-Jul-2016 19:44:49 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/tapdash/public_html/projects/attendance/ajax/search_employee_payroll.php on line 63
+[21-Jul-2016 19:44:50 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/tapdash/public_html/projects/attendance/ajax/search_employee_payroll.php on line 63
+[21-Jul-2016 19:44:50 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/tapdash/public_html/projects/attendance/ajax/search_employee_payroll.php on line 63
+[21-Jul-2016 19:44:51 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/tapdash/public_html/projects/attendance/ajax/search_employee_payroll.php on line 63
+[21-Jul-2016 19:44:54 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/tapdash/public_html/projects/attendance/ajax/search_employee_payroll.php on line 63
+[21-Jul-2016 19:44:55 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/tapdash/public_html/projects/attendance/ajax/search_employee_payroll.php on line 63

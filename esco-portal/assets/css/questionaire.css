@@ -1,0 +1,281 @@
+.hidden-question{
+  display:none;
+}
+.question-header{
+  border: 1px solid #d5d5d5;width:100%;position:relative;
+  background:#f7942a;
+  color:#fff;
+}
+.question-box{
+  border: 1px solid #d5d5d5;width:100%;position:relative;text-align:center;
+  color:#000;
+}
+.question-box2{
+  border: 1px solid #d5d5d5;width:100%;position:relative;text-align:center;
+  color:#000;
+}
+.question-body.active{
+  display:block;
+}
+.question-header p{
+  padding-top:1%;
+  padding-left:1%;
+  padding-right:2%;
+}
+.question-header:before{
+  content:"";
+  position:absolute;
+  top:30px; /* value = - border-top-width - border-bottom-width */
+  right:13px; /* controls horizontal position */
+  border-width:6.5px 6.5px 0; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#000 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+.question{
+  background:#f7942a;
+}
+.break-line{
+
+  min-height:20px;
+  content:"";
+}
+.qnum{
+  background:#000;text-align:center;color:#fff;min-height:90px;
+}
+.qnum span{
+  font-size:38px;color:#000;
+}
+.qnum p{
+   line-height: 70%;
+}
+.question-header > .question{
+  padding:1em;
+}
+.question-body{
+  border: 1px solid #d5d5d5;width:100%;height:auto;margin-top:30px;position:relative;clear:both;display:none;
+}
+.question-body:before {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:40px; /* controls horizontal position */
+  border-width:20px 20px 0;
+  border-style:solid;
+  border-color:#d5d5d5 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* creates the smaller  triangle */
+.question-body:after {
+  content:"";
+  position:absolute;
+  bottom:-13px; /* value = - border-top-width - border-bottom-width */
+  left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width:18px 18px 0;
+  border-style:solid;
+  border-color:#fff transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+.question-body:before {
+  top:-20px; /* value = - border-top-width - border-bottom-width */
+  bottom:auto;
+  left:auto;
+  right:47.7%; /* controls horizontal position */
+  border-width:0 20px 20px;
+}
+
+/* creates the smaller  triangle */
+.question-body:after {
+  top:-18.3px; /* value = - border-top-width - border-bottom-width */
+  bottom:auto;
+  left:auto;
+  right:48%; /* value = (:before right) + (:before border-right) - (:after border-right) */
+  border-width:0 18px 18px;
+}
+
+.question-ans >  label {
+    display: inline-block;
+    position: relative; /* needed for checkbox absolute positioning */
+    font-size: 1.4rem;
+    padding-top:4%;
+    padding-bottom:3%;
+    color:#444444;
+    border-bottom:1px solid #bababa;
+
+
+}
+
+.question-ans  .question-radio > input[type="radio"] {
+    display: block;
+    position: absolute; /* remove it from the flow */
+    width: 80%;
+    height: 50%;
+    margin: -.5rem; /* negative the padding of label to cover the "button" */
+    cursor: pointer;
+    opacity: 0; /* make it transparent */
+    z-index: 666; /* place it on top of everything else */
+}
+
+
+.question-ans  .question-radio > input[type="radio"] + span {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+        border: 1px solid #a3a3a3;
+        border-radius:15px;
+        font-size:20px;
+
+}
+.question-ans .question-radio > input[type="radio"]:checked + span {
+    background-color: #fdb45f;
+    border: 1px solid #fdb45f;
+}
+.question-ans  .question-check > input[type="checkbox"] {
+    display: block;
+    position: absolute; /* remove it from the flow */
+    width: 80%;
+    height: 50%;
+    margin: -.5rem; /* negative the padding of label to cover the "button" */
+    cursor: pointer;
+    opacity: 0; /* make it transparent */
+    z-index: 666; /* place it on top of everything else */
+}
+
+
+.question-ans  .question-check > input[type="checkbox"] + span {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+        border: 1px solid #a3a3a3;
+        border-radius:15px;
+        font-size:20px;
+
+}
+.question-ans .question-check > input[type="checkbox"]:checked + span {
+    background-color: #fdb45f;
+    border: 1px solid #fdb45f;
+}
+.question-ans  > label:active {
+  background:#ddd;
+}
+.TableService{
+  width:100%;
+}
+.TableService{
+  border-top:none;
+
+  }
+
+.TableService thead tr td{
+  text-align:center;
+  border-top:none;
+}
+.TableService .form-control{
+  background:#fff;
+  border-radius:0;
+  box-shadow:none;
+  border:none;
+  border-bottom:1px solid #a3a3a3;
+}
+.btn-primary,.btn-primary:hover{
+  background:#ef4023;
+  border:none;
+}
+.btn-primary:active,.btn-primary:visited{
+  background:#000;
+  border:none;
+  box-shadow:0;
+}
+.panel-layer{
+  background:rgba(0,0,0,0.20);
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  z-index:5000;
+
+}
+.panel-layer2{
+  background:#fff;
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  z-index:5000;
+
+}
+.panel-box{
+  width:60%;
+  background:#fff;
+  margin:0 auto;
+  text-align:center;
+  padding:2%;
+  max-height:400px;
+  overflow:auto;
+}
+.question-header.summary{
+  border:none;
+  pointer-events: none;
+
+}
+.question-header.summary > .row >.col-md-12 > .question{
+padding:0;
+pointer-events: none;
+width:100%;
+}
+.question-header.summary:before{
+display:none;}
+.question.summary{
+  font-size:1.2em;
+}
+.question-body.summary{
+  display:block;
+  border:0;
+pointer-events: none;
+}
+.reviewForm{
+  display:none;
+  color:#fdb45f;
+}
+.question-body.summary:before{
+  display:none;
+}
+.form-control.summary{
+  pointer-events: none;
+
+}
+.submitBtn{
+  display:none;
+}
+.questionPanel{
+  display:none;
+}
+.terms{
+  display:none;
+}
+.terms-body{
+  width:80%;
+  margin:0 auto;
+  position:relative;
+  top:10%;
+}
+@media (max-width: 768px) {
+.terms-body{
+  width:100%;
+}
+.btn-accepts{
+  background:#fdb45f;
+  color:#fff;
+}
+.btn-decline{
+  background:#111;
+  color:#fff;
+
+}

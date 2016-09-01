@@ -1,0 +1,118 @@
+.navbar-brand img{
+
+position:absolute;
+width:200px;
+left:35px;
+}
+
+.navbar{
+  background:#00467f;
+  min-height:80px;
+  border:none;
+}
+.btn-icebox{
+  color:#fff;
+  background:#21557f;
+  border-radius:0;
+}
+.linebreak{
+  height:20px;
+}
+.sidebar{
+  background:#000;
+  margin-top:80px;
+}
+#wrapper{
+  background:#000;
+}
+.sidebar-nav ul li > a {
+  color:#fff;
+  border:none;
+}
+#side-menu li{
+  border:0!important;
+}
+#side-menu li > a.active{
+  background:#202020;
+  border-right:3px solid #00467f;
+}
+#side-menu li > a:hover, #side-menu li > a:active, #side-menu li > a:visited, #side-menu li >a:focus{
+  background:#202020;
+  border-right:3px solid #00467f;
+}
+#side-menu li > a{
+  padding:1.7em;
+}
+.fa{
+  margin-right:15px;
+}
+.navbar-top-links{
+  position:relative;
+  top:20px;
+  color:#fff;
+}
+.navbar-top-links li a{
+  color:#fff;
+}
+.navbar-top-links li a:hover{
+  background:rgba(0,0,0,0.8);
+}
+.navbar-top-links li a:visited{
+  background:rgba(0,0,0,0.8);
+}
+.dropdown-menu li a{
+  color:#000;
+}
+.dropdown-menu li a:hover{
+  color:#fff;
+}
+.nav .open>a:focus{
+  background:#000;
+}
+#page-wrapper{
+  margin-top:50px;
+}
+.box-header{
+  text-align:center;
+  background:#f26522;
+}
+.box-title{
+  font-size:30px;
+  color:#fff;
+  padding:30px
+}
+.box-title a{
+color:#fff;
+font-size:10px;
+padding:10%;
+}
+#theCalendar thead tr td{
+  color:#e66b6b;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+.page-header{
+  color:#7d7d7d;
+}
+.panel-layer{
+  width:100%;height:100%;background:rgba(0,0,0,0.20);z-index:5000;position:fixed;top:0;left:0;
+}
+.dj_badge{
+  padding:5%;
+  border-radius:100%;
+  position:relative;
+  bottom:10px;
+  background:none;
+  border:2px solid red;
+  color:red;
+}
+
+@media (max-width: 768px) {
+  .nav-but{
+    position:relative;
+    top:15px;
+  }
+.djUsernav{
+  display:none;
+}
+}

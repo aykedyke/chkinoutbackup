@@ -1,0 +1,174 @@
+.bodybg{
+	background: url("../images/123.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   height:100%;
+}
+
+.wj_widget_desc h4{
+  font-size:17px;
+}
+  .wj_widget_desc p > b{
+    font-size:13.5px;
+  }
+#premprov{
+background:#fafafa;
+
+}
+.filtr-item{
+background:#fff;
+}
+.panel-thumbnail{
+margin:1.5rem;
+text-align:center;
+background:#f5f5f5;
+margin-bottom:0;
+}
+.panel-thumbnail a img{
+margin:0 auto;
+}
+.panel-body{
+padding:0;
+}
+.btn-filter-active{
+background:#f7942a;
+color:#fff;
+border:2px solid #f7942a;
+
+}
+.btn-filter{
+border:2px solid #cecece;
+color:#cecece;
+}
+.panel-star{
+border-right:1px solid #ddd;padding:1rem;
+text-align:center;
+}
+.panel-expand{
+
+}
+.panel-thumbnail{
+max-height:200px;
+overflow: auto;
+}
+.carousel{
+padding:0;
+}
+#myCarousel{
+padding:0;
+margin:0;
+}
+.carousel-inner{
+width:100%;
+}
+.item{
+padding:0;
+margin:0;
+}
+.carousel-indicators{
+bottom:-10px;
+}
+#djServices{
+background:#ebebeb;
+position:relative;
+}
+.btn-services{
+background:#333333;
+border:0.5px solid #fff;
+color:#fff;
+padding-top:3em;
+padding-bottom:3em;
+margin:0!important;
+margin-bottom:0;
+border-radius:0!important;
+font-size:1em;
+}
+.activ-services{
+background:#ff8b38;
+
+}
+.btn-services:hover{
+background:#ff8b38!important;
+color:#fff;
+}
+#appBanners{
+background:#fff;
+padding-top:5em;
+padding-bottom:5em;
+}
+.contactUs{
+background:#525252;
+padding-top:5em;
+padding-bottom:5em;
+color:#fff;
+}
+.pageHeader{
+text-align:center;
+color:white;
+clear:both;
+padding-bottom:5em;
+font-family: 'Raleway', sans-serif;
+}
+.scUp,.scDown{
+  position:absolute;
+  left: 35%;
+}
+.scUp{
+  top:0;
+  margin-top: -55px;
+}
+.scDown{
+  bottom:0;
+  margin-bottom: -55px;
+}
+.img-plus {
+padding-top:0.5em;
+cursor:pointer;
+}
+.img-plus img{
+  width:25%;
+  margin:0 auto;
+}
+#serviceCarousel > .carousel-inner > .item{
+  padding:0;
+  margin:0;
+}
+.djServices-item{
+  display:none;
+}
+.active-item{
+  display:block;
+}
+.djService-item-img{
+  display:none;
+}
+.active-item-img{
+  display:block;
+}
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      opacity: 0;
+      transition-property: opacity;
+    }
+
+    .active {
+      opacity: 1;
+    }
+
+    .active.left,
+    .active.right {
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+  }
+
+}
